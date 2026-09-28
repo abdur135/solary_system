@@ -22,8 +22,6 @@ Menyajikan informasi planet lewat halaman multimedia — galeri gambar, video, a
 
 </div>
 
-> ⚠️ **Catatan:** Link di atas masih placeholder. Ganti `GANTI_DENGAN_ID_VIDEO` dengan ID video YouTube-mu setelah diunggah, contoh: `https://youtu.be/dQw4w9WgXcQ`.
-
 ---
 
 ## ✨ Fitur
@@ -92,9 +90,3 @@ Lalu buka **http://localhost:8000** di browser.
 ## 📄 Lisensi
 
 Proyek ini dibuat untuk keperluan pembelajaran/edukasi.
-
-<div align="center">
-
-Made with 🪐 for learning purposes
-
-</div>
