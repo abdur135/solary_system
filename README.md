@@ -1,57 +1,77 @@
-# 🌌 Tata Surya - Sistem Multimedia
+<div align="center">
 
-Website edukasi interaktif tentang tata surya, dibuat dengan HTML, CSS, dan JavaScript. Menyajikan informasi planet lewat halaman multimedia — galeri gambar, video, audio ambient, dan kuis interaktif.
+# 🌌 Tata Surya — Sistem Multimedia
+
+**Website edukasi interaktif tentang tata surya**, dibuat dengan HTML, CSS, dan JavaScript.
+Menyajikan informasi planet lewat halaman multimedia — galeri gambar, video, audio ambient, dan kuis interaktif.
+
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](#)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](#)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](#)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3.3-7952B3?style=flat&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
+
+</div>
 
 ---
 
 ## 🎥 Demo Video
 
-Klik tombol di bawah untuk melihat video demo website:
+<div align="center">
 
-### ▶️ [WATCH DEMO VIDEO](./demo/demo_tatasurya.mp4)
+[![Watch Demo on YouTube](https://img.shields.io/badge/▶️_Watch_Demo-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/A3Aoh0fhWJc)
+
+</div>
+
+> ⚠️ **Catatan:** Link di atas masih placeholder. Ganti `GANTI_DENGAN_ID_VIDEO` dengan ID video YouTube-mu setelah diunggah, contoh: `https://youtu.be/dQw4w9WgXcQ`.
 
 ---
 
 ## ✨ Fitur
 
-- **Beranda** — halaman utama dengan pengantar tata surya
-- **Planet** — informasi detail tiap planet
-- **Galeri** — koleksi gambar planet (Merkurius sampai Neptunus)
-- **Video** — video edukasi tata surya
-- **Kuis** — kuis interaktif pilihan ganda seputar tata surya, dengan penilaian otomatis
-- **Tentang** — informasi seputar website ini
-- Musik latar (audio ambient bertema luar angkasa)
+| Halaman | Deskripsi |
+|---|---|
+| 🏠 **Beranda** | Halaman utama dengan pengantar tata surya |
+| 🪐 **Planet** | Informasi detail tiap planet |
+| 🖼️ **Galeri** | Koleksi gambar planet (Merkurius sampai Neptunus) |
+| 🎬 **Video** | Video edukasi tata surya |
+| 📝 **Kuis** | Kuis interaktif pilihan ganda dengan penilaian otomatis |
+| ℹ️ **Tentang** | Informasi seputar website ini |
+| 🎵 **Audio** | Musik latar bertema luar angkasa |
+
+---
 
 ## 🛠️ Teknologi
 
-- HTML5 & CSS3
-- JavaScript (vanilla)
-- [Bootstrap 5.3.3](https://getbootstrap.com/) — layout & komponen UI
-- [Font Awesome 6.5.1](https://fontawesome.com/) — ikon
+- **HTML5** & **CSS3**
+- **JavaScript** (vanilla)
+- [**Bootstrap 5.3.3**](https://getbootstrap.com/) — layout & komponen UI
+- [**Font Awesome 6.5.1**](https://fontawesome.com/) — ikon
+
+---
 
 ## 📁 Struktur Folder
 
 ```
 Solar-System/
-├── index.html           # Beranda
-├── about.html           # Halaman tentang
-├── planets.html         # Informasi planet
-├── gallery.html         # Galeri gambar
-├── video.html           # Video edukasi
-├── quiz.html            # Kuis interaktif
+├── index.html            # Beranda
+├── about.html            # Halaman tentang
+├── planets.html          # Informasi planet
+├── gallery.html          # Galeri gambar
+├── video.html            # Video edukasi
+├── quiz.html             # Kuis interaktif
 ├── css/
 │   └── style.css
 ├── js/
 │   ├── script.js
 │   └── quiz.js           # Logika & data soal kuis
-├── images/               # Gambar planet (mercury, venus, earth, dst.)
+├── images/                # Gambar planet (mercury, venus, earth, dst.)
 ├── audio/
 │   └── space.mp3
 └── video/
-│   └── tata-surya.mp4
-├── js/
-│   └── space.mp3
+    └── tata-surya.mp4
 ```
+
+---
 
 ## 🚀 Cara Menjalankan
 
@@ -65,8 +85,16 @@ python -m http.server 8000
 npx http-server .
 ```
 
-Lalu buka `http://localhost:8000` di browser.
+Lalu buka **http://localhost:8000** di browser.
+
+---
 
 ## 📄 Lisensi
 
 Proyek ini dibuat untuk keperluan pembelajaran/edukasi.
+
+<div align="center">
+
+Made with 🪐 for learning purposes
+
+</div>
